@@ -1,0 +1,21 @@
+{
+  "name": "Astana Service Group",
+  "short_name": "ASG",
+  "description": "Сервисное приложение для жителей",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0A2463",
+  "theme_color": "#0A2463",
+  "lang": "ru",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ],
+  "categories": ["utilities", "productivity"],
+  "screenshots": [],
+  "shortcuts": [
+    { "name": "Новая заявка", "url": "/?screen=new-request", "description": "Подать заявку" },
+    { "name": "Мои заявки",  "url": "/?screen=my-requests", "description": "История заявок" }
+  ]
+}
